@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prinsalev Ventures</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+
+                <div class="logo-circle">
+                    PV
+                </div>
+
+                <div class="logo-name">
+                    <strong>PRINSALEV</strong>
+                    <span>VENTURES</span>
+                </div>
+
+            </a>
+
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Shop</a>
+                <a href="#services">Services</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button id="cartBtn" class="cart-button">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cartCount">0</span>
+                </button>
+
+                <button id="menuBtn" class="menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                PREMIUM BAKING EXPERIENCE
+            </p>
+
+            <h1>
+                Creating Sweet
+                <span>Moments</span>
+            </h1>
+
+            <p class="hero-text">
+                Quality baking materials, beautiful cake
+                decorations and delicious cakes made with
+                passion and excellence.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn btn-primary">
+                    Shop Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#services" class="btn btn-outline">
+                    Our Services
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="section" id="about">
+
+        <div class="container about-grid">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+                    alt="Beautiful cake">
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    ABOUT US
+                </p>
+
+                <h2>
+                    Quality Baking
+                    <span>Made Simple</span>
+                </h2>
+
+                <p>
+                    Welcome to Prinsalev Ventures.
+                    We provide quality baking materials,
+                    cake decoration supplies and delicious
+                    cakes for every celebration.
+                </p>
+
+                <a href="#contact" class="btn btn-primary">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+
+    <section class="section products-section" id="products">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    OUR SHOP
+                </p>
+
+                <h2>
+                    Baking <span>Essentials</span>
+                </h2>
+
+                <p>
+                    Shop quality products for your baking needs.
+                </p>
+
+            </div>
+
+
+            <div class="shop-tools">
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="productSearch"
+                        placeholder="Search products...">
+
+                </div>
+
+
+                <div class="filters">
+
+                    <button class="filter-btn active"
+                            data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="ingredients">
+                        Ingredients
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="decoration">
+                        Decorations
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="tools">
+                        Tools
+                    </button>
+
+                    <button class="filter-btn"
+                            data-filter="cakes">
+                        Cakes
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+                <!-- PRODUCT -->
+
+                <article class="product-card"
+                         data-category="ingredients"
+                         data-name="Premium Baking Flour"
+                         data-price="8500">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85"
+                            alt="Baking flour">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            INGREDIENTS
+                        </p>
+
+                        <h3 class="product-name">
+                            Premium Baking Flour
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong class="product-price">
+                                ₦8,500
+                            </strong>
+
+                            <button class="add-to-cart">
+                                <i class="fa-solid fa-plus"></i>
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT -->
+
+                <article class="product-card"
+                         data-category="decoration"
+                         data-name="Luxury Cake Toppers"
+                         data-price="5000">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=800&q=85"
+                            alt="Cake decorations">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            DECORATION
+                        </p>
+
+                        <h3 class="product-name">
+                            Luxury Cake Toppers
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong class="product-price">
+                                ₦5,000
+                            </strong>
+
+                            <button class="add-to-cart">
+                                <i class="fa-solid fa-plus"></i>
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT -->
+
+                <article class="product-card"
+                         data-category="tools"
+                         data-name="Professional Piping Set"
+                         data-price="12000">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=85"
+                            alt="Professional baking tools">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            BAKING TOOLS
+                        </p>
+
+                        <h3 class="product-name">
+                            Professional Piping Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong class="product-price">
+                                ₦12,000
+                            </strong>
+
+                            <button class="add-to-cart">
+                                <i class="fa-solid fa-plus"></i>
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT -->
+
+                <article class="product-card"
+                         data-category="cakes"
+                         data-name="Signature Celebration Cake"
+                         data-price="45000">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=800&q=85"
+                            alt="Celebration cake">
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">
+                            CAKES
+                        </p>
+
+                        <h3 class="product-name">
+                            Signature Celebration Cake
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong class="product-price">
+                                ₦45,000
+                            </strong>
+
+                            <button class="add-to-cart">
+                                <i class="fa-solid fa-plus"></i>
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section class="section" id="services">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    WHAT WE DO
+                </p>
+
+                <h2>
+                    Our <span>Services</span>
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+
+                    <h3>
+                        Baking Materials
+                    </h3>
+
+                    <p>
+                        Quality ingredients and baking
+                        supplies for every baker.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <h3>
+                        Cake Decorations
+                    </h3>
+
+                    <p>
+                        Beautiful decorations and tools
+                        to make your cakes special.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cake-candles"></i>
+                    </div>
+
+                    <h3>
+                        Custom Cakes
+                    </h3>
+
+                    <p>
+                        Beautiful cakes for birthdays,
+                        weddings and celebrations.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+
+    <section class="section reviews" id="reviews">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    CUSTOMER REVIEWS
+                </p>
+
+                <h2>
+                    What Customers
+                    <span>Say</span>
+                </h2>
+
+            </div>
+
+
+            <div class="reviews-grid"
+                 id="reviewsContainer">
+
+                <div class="review-card">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "Excellent products and wonderful
+                        customer service!"
+                    </p>
+
+                    <h4>
+                        Happy Customer
+                    </h4>
+
+                </div>
+
+
+                <div class="review-card">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        "The cake was beautiful and tasted
+                        amazing."
+                    </p>
+
+                    <h4>
+                        Satisfied Customer
+                    </h4>
+
+                </div>
+
+            </div>
+
+
+            <button class="btn btn-primary"
+                    id="openReviewBtn">
+
+                Leave a Review
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="section contact"
+             id="contact">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    CONTACT US
+                </p>
+
+                <h2>
+                    Let's Talk
+                </h2>
+
+                <p>
+                    We are ready to help with your baking
+                    materials and cake orders.
+                </p>
+
+            </div>
+
+
+            <div class="contact-list">
+
+                <a href="tel:0806038403766"
+                   class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <strong>
+                        0806038403766
+                    </strong>
+
+                </a>
+
+
+                <a href="tel:08022151185"
+                   class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <strong>
+                        08022151185
+                    </strong>
+
+                </a>
+
+
+                <a href="https://wa.me/234806038403766"
+                   target="_blank"
+                   class="contact-item">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <strong>
+                        WhatsApp Us
+                    </strong>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-brand">
+
+                <div class="logo-circle">
+                    PV
+                </div>
+
+                <h3>
+                    PRINSALEV VENTURES
+                </h3>
+
+                <p>
+                    Making every celebration sweeter.
+                </p>
+
+            </div>
+
+
+            <p class="footer-bottom">
+                © 2026 Prinsalev Ventures. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- CART -->
+
+    <div class="cart-overlay"
+         id="cartOverlay"></div>
+
+
+    <aside class="cart-panel"
+           id="cart">
+
+        <div class="cart-header">
+
+            <h3>
+                Your Cart
+            </h3>
+
+            <button id="closeCart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <div class="cart-items"
+             id="cartItems">
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total-row">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    ₦0
+                </strong>
+
+            </div>
+
+
+            <button class="btn btn-primary"
+                    id="checkoutBtn">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                Order on WhatsApp
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- REVIEW MODAL -->
+
+    <div class="modal"
+         id="reviewModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close"
+                    id="closeReviewBtn">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <h2>
+                Leave a <span>Review</span>
+            </h2>
+
+
+            <form id="reviewForm">
+
+                <div class="form-group">
+
+                    <label for="reviewName">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="reviewName"
+                        placeholder="Enter your name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Your Rating
+                    </label>
+
+                    <div class="rating">
+
+                        <button type="button"
+                                class="rating-star">
+                            ★
+                        </button>
+
+                        <button type="button"
+                                class="rating-star">
+                            ★
+                        </button>
+
+                        <button type="button"
+                                class="rating-star">
+                            ★
+                        </button>
+
+                        <button type="button"
+                                class="rating-star">
+                            ★
+                        </button>
+
+                        <button type="button"
+                                class="rating-star">
+                            ★
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="reviewText">
+                        Your Review
+                    </label>
+
+                    <textarea
+                        id="reviewText"
+                        rows="5"
+                        placeholder="Write your review..."
+                        required></textarea>
+
+                </div>
+
+
+                <button class="btn btn-primary"
+                        type="submit">
+
+                    Submit Review
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+
+    <div class="toast"
+         id="toast">
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
